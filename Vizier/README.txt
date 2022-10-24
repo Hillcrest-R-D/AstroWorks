@@ -1,0 +1,1 @@
+data obtained from http://vizier.u-strasbg.fr/viz-bin/VizieR?-source=I/239
