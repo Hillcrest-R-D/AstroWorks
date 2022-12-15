@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Completeness_Report_20221211.aux
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: plain.bst
+Database file #1: ref.bib
+Warning--to sort, need author or key in nasa
+Warning--to sort, need author or key in vizier
+Warning--to sort, need author or key in cosmos
+Warning--to sort, need author or key in brit
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            512 strings with 4364 characters,
+and the built_in function-call counts, 648 in all, are:
+= -- 56
+> -- 4
+< -- 0
++ -- 4
+- -- 0
+* -- 22
+:= -- 73
+add.period$ -- 8
+call.type$ -- 4
+change.case$ -- 12
+chr.to.int$ -- 0
+cite$ -- 8
+duplicate$ -- 28
+empty$ -- 93
+format.name$ -- 0
+if$ -- 157
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 0
+newline$ -- 19
+num.names$ -- 0
+pop$ -- 44
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 24
+stack$ -- 0
+substring$ -- 20
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 4
+while$ -- 0
+width$ -- 5
+write$ -- 30
+(There were 4 warnings)
