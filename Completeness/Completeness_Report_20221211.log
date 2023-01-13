@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.5)  15 DEC 2022 02:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.5)  15 DEC 2022 09:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,17 +1088,13 @@ File: figures/dist_hist.png Graphic file (type png)
 <use figures/dist_hist.png>
 Package pdftex.def Info: figures/dist_hist.png  used on input line 98.
 (pdftex.def)             Requested size: 476.98347pt x 357.73761pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[8 <./figures/dist_hist_base.png>] [9 <./figures/dist_hist.png>]
+ [8 <./figures/dist_hist_base.png>] [9 <./figures/dist_hist.png>]
 <figures/e_Dist_hist.png, id=125, 1445.4pt x 1084.05pt>
 File: figures/e_Dist_hist.png Graphic file (type png)
 <use figures/e_Dist_hist.png>
 Package pdftex.def Info: figures/e_Dist_hist.png  used on input line 107.
 (pdftex.def)             Requested size: 476.98347pt x 357.73761pt.
- [10 <./figures/e_Dist_hist.png>]
+[10 <./figures/e_Dist_hist.png>]
 <figures/e_Dist_perc_hist.png, id=132, 1445.4pt x 1084.05pt>
 File: figures/e_Dist_perc_hist.png Graphic file (type png)
 <use figures/e_Dist_perc_hist.png>
@@ -1130,11 +1126,11 @@ anged.
 Here is how much of TeX's memory you used:
  22902 strings out of 475281
  463024 string characters out of 2771671
- 791641 words of memory out of 3000000
+ 791642 words of memory out of 3000000
  43891 multiletter control sequences out of 15000+600000
  520409 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,111p,1294b,440s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 108i,8n,111p,1294b,438s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/cm-super/c
 m-super-t1.enc}{C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
 ps/base/8r.enc}<C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
@@ -1145,7 +1141,7 @@ ata/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncb8a.pfb><C:/Users/Fen
 ton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncr8a.pfb><C:/U
 sers/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/ncntrsbk/uncri8a.
 pfb>
-Output written on Completeness_Report_20221211.pdf (16 pages, 661094 bytes).
+Output written on Completeness_Report_20221211.pdf (16 pages, 661088 bytes).
 PDF statistics:
  206 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)
