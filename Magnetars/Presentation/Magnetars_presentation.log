@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.5)  23 JAN 2023 01:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.11.25) (preloaded format=pdflatex 2022.12.5)  23 JAN 2023 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1166,10 +1166,10 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 103--103
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 132.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 132--132
  [] 
  []
 
@@ -1178,10 +1178,10 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 132.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 132--132
  [] 
  []
 
@@ -1190,10 +1190,10 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 132.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 132--132
  [] 
  []
 
@@ -1202,10 +1202,10 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 132.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 132--132
  [] 
  []
 
@@ -1214,10 +1214,10 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 132.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 132--132
  [] 
  []
 
@@ -1226,10 +1226,10 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
  [] 
  []
 
@@ -1238,85 +1238,177 @@ Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
 ]
 File: figures/magnetar_art.jpg Graphic file (type jpg)
 <use figures/magnetar_art.jpg>
-Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 141.
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
 (pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
 
-Overfull \hbox (2.29288pt too wide) in paragraph at lines 141--141
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
  [] 
  []
 
 [11
 
 ]
-<figures/spatial.png, id=484, 280.79906pt x 283.0575pt>
+File: figures/magnetar_art.jpg Graphic file (type jpg)
+<use figures/magnetar_art.jpg>
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
+(pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
+
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
+ [] 
+ []
+
+[12
+
+]
+File: figures/magnetar_art.jpg Graphic file (type jpg)
+<use figures/magnetar_art.jpg>
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
+(pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
+
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
+ [] 
+ []
+
+[13
+
+]
+File: figures/magnetar_art.jpg Graphic file (type jpg)
+<use figures/magnetar_art.jpg>
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
+(pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
+
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
+ [] 
+ []
+
+[14
+
+]
+File: figures/magnetar_art.jpg Graphic file (type jpg)
+<use figures/magnetar_art.jpg>
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
+(pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
+
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
+ [] 
+ []
+
+[15
+
+]
+File: figures/magnetar_art.jpg Graphic file (type jpg)
+<use figures/magnetar_art.jpg>
+Package pdftex.def Info: figures/magnetar_art.jpg  used on input line 170.
+(pdftex.def)             Requested size: 173.44052pt x 108.40031pt.
+
+Overfull \hbox (2.29288pt too wide) in paragraph at lines 170--170
+ [] 
+ []
+
+[16
+
+]
+<figures/spatial.png, id=663, 280.79906pt x 283.0575pt>
 File: figures/spatial.png Graphic file (type png)
 <use figures/spatial.png>
-Package pdftex.def Info: figures/spatial.png  used on input line 171.
+Package pdftex.def Info: figures/spatial.png  used on input line 200.
 (pdftex.def)             Requested size: 140.39919pt x 141.5284pt.
- [12
+ [17
 
  <./figures/spatial.png>]
 File: figures/spatial.png Graphic file (type png)
 <use figures/spatial.png>
-Package pdftex.def Info: figures/spatial.png  used on input line 171.
+Package pdftex.def Info: figures/spatial.png  used on input line 200.
 (pdftex.def)             Requested size: 140.39919pt x 141.5284pt.
- [13
+ [18
 
 ]
 File: figures/spatial.png Graphic file (type png)
 <use figures/spatial.png>
-Package pdftex.def Info: figures/spatial.png  used on input line 171.
+Package pdftex.def Info: figures/spatial.png  used on input line 200.
 (pdftex.def)             Requested size: 140.39919pt x 141.5284pt.
- [14
+ [19
 
 ]
 File: figures/spatial.png Graphic file (type png)
 <use figures/spatial.png>
-Package pdftex.def Info: figures/spatial.png  used on input line 171.
+Package pdftex.def Info: figures/spatial.png  used on input line 200.
 (pdftex.def)             Requested size: 140.39919pt x 141.5284pt.
- [15
+ [20
 
 ]
-<magnetar_table.pdf, id=622, 481.45973pt x 396.39995pt>
-File: magnetar_table.pdf Graphic file (type pdf)
-<use magnetar_table.pdf>
-Package pdftex.def Info: magnetar_table.pdf  used on input line 183.
+<tables/magnetar_table.pdf, id=801, 481.45973pt x 396.39995pt>
+File: tables/magnetar_table.pdf Graphic file (type pdf)
+<use tables/magnetar_table.pdf>
+Package pdftex.def Info: tables/magnetar_table.pdf  used on input line 212.
 (pdftex.def)             Requested size: 240.72928pt x 198.1995pt.
- [16
+ [21
 
- <./magnetar_table.pdf>]
-[17
+ <./tables/magnetar_table.pdf>]
+<figures/magnetar_sn_remnant.jpg, id=877, 1027.84pt x 1027.84pt>
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [22
 
-] [18
+ <./figures/magnetar_sn_remnant.jpg>]
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [23
 
-] [19
+]
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [24
 
-] [20
+]
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [25
 
-] [21
+]
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [26
 
-] [22
+]
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [27
 
-] [23
+]
+File: figures/magnetar_sn_remnant.jpg Graphic file (type jpg)
+<use figures/magnetar_sn_remnant.jpg>
+Package pdftex.def Info: figures/magnetar_sn_remnant.jpg  used on input line 25
+1.
+(pdftex.def)             Requested size: 154.16934pt x 154.16934pt.
+ [28
 
-] [24
-
-] [25
-
-] [26
-
-] [27
-
-] [28
-
-] [29
+]
+[29
 
 ] [30
 
 ] [31
 
-]
-[32
+] [32
 
 ] [33
 
@@ -1330,9 +1422,43 @@ Package pdftex.def Info: magnetar_table.pdf  used on input line 183.
 
 ] [38
 
-] [39
+]
+<figures/neutron_star_types.jpg, id=1623, 1927.2pt x 1084.05pt>
+File: figures/neutron_star_types.jpg Graphic file (type jpg)
+<use figures/neutron_star_types.jpg>
+Package pdftex.def Info: figures/neutron_star_types.jpg  used on input line 333
+.
+(pdftex.def)             Requested size: 327.61967pt x 184.28606pt.
+ [39
 
-] [40
+ <./figures/neutron_star_types.jpg>] [40
+
+] [41
+
+] [42
+
+] [43
+
+] [44
+
+] [45
+
+] [46
+
+] [47
+
+] [48
+
+] [49
+
+] [50
+
+] [51
+
+] [52
+
+]
+[53
 
 ]
 \tf@nav=\write6
@@ -1350,35 +1476,27 @@ Package rerunfilecheck Info: File `Magnetars_presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 24552 strings out of 475281
- 487251 string characters out of 2771671
- 819429 words of memory out of 3000000
- 45412 multiletter control sequences out of 15000+600000
+ 24615 strings out of 475281
+ 488845 string characters out of 2771671
+ 836284 words of memory out of 3000000
+ 45448 multiletter control sequences out of 15000+600000
  498685 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,122p,428b,1174s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{Navigation41} has been referenced but does not exis
-t, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{Navigation42} has been referenced but does not exis
-t, replaced by a fixed one
-
-{C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}
-<C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmmi10.pfb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Fenton/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Fenton/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Fe
-nton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb
-><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsy8.pfb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/ur
-w/helvetic/uhvr8a.pfb>
-Output written on Magnetars_presentation.pdf (40 pages, 1005599 bytes).
+{C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
+c}<C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Fenton/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/Fenton/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
+Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.p
+fb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><C:/Users/Fenton/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvr8a.pfb>
+Output written on Magnetars_presentation.pdf (53 pages, 1476800 bytes).
 PDF statistics:
- 1716 PDF objects out of 1728 (max. 8388607)
- 83 named destinations out of 1000 (max. 500000)
- 1918 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2240 PDF objects out of 2487 (max. 8388607)
+ 107 named destinations out of 1000 (max. 500000)
+ 2516 words of extra memory for PDF output out of 10000 (max. 10000000)
 
