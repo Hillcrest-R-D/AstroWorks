@@ -9,11 +9,11 @@
 \name{GLR}
 \maintitle{Hipparcos Catalog}
 \generalpurpose{Completeness}
-\subtitle{An Analysis of the completeness of the Hipparchus Catalog}
+\subtitle{An Analysis of the completeness of the Hipparcos Catalog}
 \business{University of Turku}
 \recipient{}
 \authored{Kristen Elise Gardner}
-\department{Department of Physics}
+\department{Department of Physics and Astronomy}
 \exhibit{000}
 \filing{}
 \location{Turku, Finland}
@@ -92,8 +92,13 @@
 			\caption{Distance Histogram}
 		\end{figure}
 		
+<<<<<<< Updated upstream
 		From our primitive error comparison-based analysis, we can see that there is a decent possibility that their exists completeness of the catalog upto about 60 pc in general. However, we are looking at the entire set of stars. If we group the stars together by absolute magnitude, we get the following:
 		\pagebreak 
+=======
+		From our primitive error comparison-based analysis, we can see that there is a decent possibility that there exists completeness of the catalog upto about 60 pc in general. However, we are looking at the entire set of stars. If we group the stars together by absolute magnitude, we get the following:
+		
+>>>>>>> Stashed changes
 		\begin{figure}[h!]
 			\includegraphics[scale=.33]{figures/dist_hist.png}
 			\caption{Distance Histogram (with magnitudinal ranging)}
@@ -108,10 +113,10 @@
 			\caption{Distance Uncertainty Histogram (with magnitudinal ranging)}
 		\end{figure}
 
-		Of immediate interest - though perhaps expected - is that the mean uncertainty here is actually 0. In anycase, we get a good idea of the average errors present on either side of the curves (they are quite small, so we can be fairly confident in our prior results). 
+		Of immediate interest - though perhaps expected - is that the mean uncertainty here is actually 0. In any case, we get a good idea of the average errors present on either side of the curves (they are quite small, so we can be fairly confident in our prior results). 
 		
 \pagebreak		
-		To get a better idea of the affect the uncertainty should have on our level of confidence in the above results, we can look at the ratio of the uncertainty of each distance measurement to the distance itself:
+		To get a better idea of the effect the uncertainty should have on our level of confidence in the above results, we can look at the ratio of the uncertainty of each distance measurement to the distance itself:
 		
 		\begin{figure}[h!]
 			\includegraphics[scale=.33]{figures/e_Dist_perc_hist.png}
@@ -135,7 +140,7 @@
 \pagebreak
 		Which shows that the as we see farther away from Sol, dimmer stars become less and less visible. We don't expect dimmer stars to become less frequent as distance increases, so this reinforces the idea that the Hipparcos catalog is incomplete at 400 pc. This suggests that the catalog may not be complete even past 10 pc, but that for stars with $M_V\le 8$ it remains possible that it is complete out to 50 pc.
 		
-		Of interest to note: the cluster seems to have a centerline asymptote of $M_V=0$, which it approaches fairly rapidly. Given this, it would appear that there is some form of completeness in the catalog - though it is obvious that the overall density seems to drop, and the precision of the distance measurement seems to decrease as well (shown by the vertical grating that occurs around 300+ pc) 
+		Of interest to note: the cluster seems to have a centerline asymptote of $M_V=0$, which it approaches fairly rapidly. Given this, it would appear that there is some form of completeness in the catalog - though it is obvious that the overall density seems to drop, and the precision of the distance measurement seems to decrease as well (shown by the vertical grating that occurs around 300+ pc). 
 		
 		
 \pagebreak
@@ -143,10 +148,10 @@
 		
 		Overall, the results of this exercise seem to point to the \textit{possibility} that the Hipparcos catalog may be complete upto about 10 pc away from Sol in general, and within some magnitude bands could even be complete as far away as 300 pc (though this is for the brightest regime of stars, which as we found have the greatest uncertainties, thus lowering our overall confidence in this conclusion).
 		
-		We used this idea of a triangular distribution to build confidence in the possibility of completeness, and in general we found that the population of data could quite possibly be complete upto 50 pc, and when we broke the population into magnitude bands, this mark varied significantly to either side - with the possible completeness distance of 10 pc for the $M_V>7.5$ band having the highest confidence due to the mean uncertainty on the distance measurement being around .3\%, where as are lowest confidence mark would be the 300 pc distance for the $M_V\le 2.5$ band, since the uncertainty on its distance measurements had an rms of
+		We used this idea of a triangular distribution to build confidence in the possibility of completeness, and in general we found that the population of data could quite possibly be complete upto 50 pc, and when we broke the population into magnitude bands, this mark varied significantly to either side - with the possible completeness distance of 10 pc for the $M_V>7.5$ band having the highest confidence due to the mean uncertainty on the distance measurement being around 4\%, where as our lowest confidence mark would be the 300 pc distance for the $M_V\le 2.5$ band.
 		
-		This preliminary analysis shed light on a few interesting characteristics of the Hipparcos catalog - and perhaps the function of astrometry in general - that we believe deserve deeper study, and so naturally the next step would be to dive further into an analysis of the uncertainty values in order to gain a deeper understanding of how that might effect our confidence and completion distances, which should end up giving us a better answer as to if and how complete the catalog is. 
-		The immediate extension of this would be to first take a deeper look at the data to narrow down where the infinite values are coming from - since we use the $\tan$ function to calculate distance, the infinite values in the statistics here are likely coming from the fact that some of the uncertainties are very close to a vertical asymptote, and so the numpy trig library is unable to give us back a finite value. Furthermore, we need to perform a more in-depth look as to whether or not the uncertainties are consistent - this particular task could be entire project in and of itself. Finally, quantifying the completeness of the catalog more precisely - which in the case of this project was out of scope due to the complexity of the error analysis that needed to be performed in order to provide any decent level of confidence to whatever results we obtained. 
+		This preliminary analysis shed light on a few interesting characteristics of the Hipparcos catalog - and perhaps the function of astrometry in general - that we believe deserve deeper study, and so naturally the next step would be to dive further into an analysis of the uncertainty values in order to gain a deeper understanding of how that might affect our confidence and completion distances, which should end up giving us a better answer as to if and how complete the catalog is. 
+		The immediate extension of this would be to first take a deeper look at the data to narrow down where the infinite values are coming from - since we use the $\tan$ function to calculate distance, the infinite values in the statistics here are likely coming from the fact that some of the uncertainties are very close to a vertical asymptote, and so the numpy trig library is unable to give us back a finite value. Furthermore, we need to perform a more in-depth look as to whether or not the uncertainties are consistent - this particular task could be an entire project in and of itself. Finally, quantifying the completeness of the catalog more precisely - which in the case of this project was out of scope due to the complexity of the error analysis that needed to be performed in order to provide any decent level of confidence to whatever results we obtained. 
 		In any case, we have laid an excellent groundwork from which to continue building a mechanism by which a quantitative analysis of a star catalog can be performed based on the data contained within the catalog itself - with as few external assumptions as possible.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%
