@@ -103,6 +103,121 @@
 \end{frame}
 %;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
+
+
+\begin{frame}{\Large Basic Properties}
+\frametitle{\Large Basic Properties}
+
+\begin{minipage}[0.2\textheight]{\textwidth}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+
+\begin{block}{Description:}
+
+\begin{itemize}
+ \item<2-> young neutron star%\pause
+ \item<3-> spinning down, rate ~1 kyr
+ \item<4-> high-B field ($\ge 10^{13}$ G)
+ \item<5-> period range of 2-12s %likely due to magnetic breaking
+\end{itemize}
+\end{block}
+\begin{block}{Cases:}
+
+\begin{itemize}
+ \item<6-> bi-modal population of transients and persistents%\pause
+ \item<7-> cross-species magnetar/pulsar
+\end{itemize}
+\end{block}
+\end{column}
+\begin{column}{0.5\textwidth}
+	\begin{figure}
+		\includegraphics[scale=.09]{figures/magnetar_art.jpg}
+		\caption{Artistic depiction of a magnetar}
+	\end{figure}
+\end{column}
+\end{columns}
+\end{minipage}
+
+\end{frame}
+%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+\begin{frame}{\Large Distribution in Space}
+\frametitle{\Large Distribution in Space}
+
+\begin{minipage}[0.2\textheight]{\textwidth}
+\begin{columns}[T]
+\begin{column}{0.5\textwidth}
+
+\begin{block}{Description:}
+
+\begin{itemize}
+ \item<2-> generally within the galactic plane %hence reinforcing the idea of their youth
+ \item<3-> mean speed of 200 km s$^-1$, $\sigma = 100$ km s$^-1$
+ \item<4-> 
+\end{itemize}
+\end{block}
+\end{column}
+\begin{column}{0.5\textwidth}
+	\begin{figure}
+		\includegraphics[scale=.5]{figures/spatial.png}
+		\caption{Top down view of the Milky Way with known Magnetars (and distance uncertainties) in red.}
+	\end{figure}
+\end{column}
+\end{columns}
+\end{minipage}
+
+\end{frame}
+%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+
+\begin{frame}{\Large Distribution in Space}
+\frametitle{\Large Distribution in Space}
+
+\begin{figure}
+	\includegraphics[scale=.5]{magnetar_table.pdf}
+\end{figure}
+
+\end{frame}
+
+%columns & blocks: There are two handy environments for structuring
+%your slide: "blocks", which divide your slide (horizontally) into
+%headed sections, and "columns" which divides your slide (vertically)
+%into colum%ns.  This next frame demonstrates both.
+
+\begin{frame}{}
+\frametitle{\Large Formation}
+\begin{columns}[c] % the "c" option specifies center vertical
+           % alignment, a `t' option would align the contents
+           % top vertically
+
+\column{.7\textwidth} % column designated by a command
+\begin{block}{Theories}
+\begin{itemize}
+ \item<2-> Neutron stars with $\approx 1$ ms period at birth [1]%\pause
+ \item<4-> spin-down leads to quiescent X-ray emission and gamma-ray bursts
+\end{itemize}
+\end{block}
+\begin{block}{Common Conditions}
+\begin{itemize}
+	\item<3-> parasitic binary star systems ending in supernova %one star feeds on the other, the mass consumption leads to an increase in angular momentum, which - if SN leads to neutron star - allows the neutron star to have the right conditions to be a magnetar
+	\item<5-> 
+\end{itemize}
+\end{block}
+\column{.3\textwidth}
+
+
+\end{columns}
+\end{frame}
+
+
+
+
+%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
 %columns & blocks: There are two handy environments for structuring
 %your slide: "blocks", which divide your slide (horizontally) into
 %headed sections, and "columns" which divides your slide (vertically)
@@ -115,16 +230,16 @@
            % top vertically
 
 \column{.7\textwidth} % column designated by a command
-\begin{block}{Detection}
+\begin{block}{Magnetars}
 \begin{itemize}
  \item<2-> 2-12s period X-Ray bursts%\pause
- \item<2-> large spin-down rates imply massive magnetic fields
+ \item<4-> spin-down leads to quiescent X-ray emission and gamma-ray bursts
 \end{itemize}
 \end{block}
-\begin{block}{Sample}
+\begin{block}{Radio Pulsars}
 \begin{itemize}
-	\item<3-> Piezoelectric Suspension
-	\item<3-> Indium-Tin Oxide coated PET plastic (0.01" thickness)
+	\item<3-> ~100 ms period high-band bursts (mostly X-ray)
+	\item<5-> spin-down causes radio emission, and non-thermal X/gamma-ray radiation
 \end{itemize}
 \end{block}
 \column{.3\textwidth}
@@ -156,14 +271,14 @@
 			\column{.7\textwidth} % column designated by a command
 			\begin{block}{Bi-modal}
 				\begin{itemize}
-					\item<1-> Persistent Magnetars
-					\item<2-> Transient Magnetars
+					\item<2-> Persistent Magnetars
+					\item<3-> Transient Magnetars
 				\end{itemize}
 			\end{block}
 			\begin{block}{Cross-species}
 				\begin{itemize}
- 					\item<3-> Magnetar Pulsar%\pause
- 					\item<4-> Theoretically: neutron star switch between magnetar, pulsar, and magnetar pulsar
+ 					\item<4-> Magnetar Pulsar%\pause
+ 					\item<5-> Theoretically: neutron star switch between magnetar, pulsar, and magnetar pulsar
 				\end{itemize}
 			\end{block}
 			
@@ -174,7 +289,7 @@
 \end{frame}
 
 
-\begin{frame}{\Large Budgeting}
+\begin{frame}{\Large Magnetic Breaking}
 	\begin{figure}
 		\begin{columns}[c] % the "c" option specifies center vertical
            % alignment, a `t' option would align the contents
@@ -183,21 +298,9 @@
 			\column{.7\textwidth} % column designated by a command
 			\begin{block}{Materials}
 				\begin{itemize}
- 					\item<2-> BaTiO3 nanoparticles - \$30/25g%\pause
- 					\item<3-> Flexible Photopolymer - \$90/1kg
- 					\item<4-> Indium Tin Oxide PET - \$5/(32 sq.in. sheet)
+ 					\item<2-> 
 				\end{itemize}
 			\end{block}
-			\begin{block}{Per Sample}
-				\begin{itemize}
- 					\item<2-> 0.04g BaTiO3 nanoparticles
- 					\item<3-> .2g Flexible Photopolymer
- 					\item<4-> 1.5 sq.in. Indium Tin Oxide PET
-				\end{itemize}
-			\end{block}
-			\begin{itemize}
-				\item<5-> Total Cost per sample: \$0.30
-			\end{itemize}
 			
 			\column{.3\textwidth}
 		\end{columns}
@@ -205,7 +308,7 @@
 \end{frame}
 
 
-\begin{frame}{\Large Standards}
+\begin{frame}{\Large EM-Bursts}
 	\begin{figure}
 		\begin{columns}[c] % the "c" option specifies center vertical
            % alignment, a `t' option would align the contents
@@ -213,8 +316,7 @@
 			
 			\column{.7\textwidth} % column designated by a command
 			\begin{itemize}
-				\item 176-1987 - IEEE Standard on Piezoelectricity (withdrawn)
-				\item No other applicable standards were found
+				\item<2->
 			\end{itemize}
 			
 			\column{.3\textwidth}
@@ -223,65 +325,6 @@
 \end{frame}
 
 
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-\begin{frame}{Typical Response (Plucking)}
- \begin{block}{Control Test:}
- \begin{center}
-%\begin{figure}
-%	\includegraphics[scale=.25]{cresp1.png}
-%\end{figure}
- \end{center}
-\end{block}
-\end{frame}
-
-
-
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-\begin{frame}{Typical Response (Plucking)}
- \begin{block}{6 wt\% Test:}
- \begin{center}
-%\begin{figure}
-%	\includegraphics[scale=.25]{6resp1.png}
-%\end{figure}
- \end{center}
-  \end{block}
-\end{frame}
-
-
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-\begin{frame}{Typical Response (Plucking)}
- \begin{block}{11 wt\% Test:}
- \begin{center}
-%\begin{figure}
-%	\includegraphics[scale=.25]{11resp2.png}
-%\end{figure}
- \end{center}
-  \end{block}
-\end{frame}
-
-
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-\begin{frame}{Typical Response (Plucking)}
- \begin{block}{20 wt\% Test:}
- \begin{center}
-%\begin{figure}
-%	\includegraphics[scale=.25]{20resp1.png}
-%\end{figure}
- \end{center}
- \end{block}
-\end{frame}
-
-
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-\begin{frame}{Sources of Uncertainty}
-\begin{center}
-\end{center}
-\begin{itemize}
-\item Force measurement
-\item Unknown polymer structure
-\item Noisy Environment
-\end{itemize}
-\end{frame}
 
 %;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -296,18 +339,14 @@
            % top vertically
 
 			\column{.7\textwidth} % column designated by a command
-			\begin{block}{Successes}
+			\begin{block}{What we know}
 				\begin{itemize}
- 					\item<2-> The new material is piezoelectric %
-					\item<3-> Samples exhibit significant electrical responses.
-					\item<4-> Sample construction is cheap and accessible
+ 					\item<2-> 
 				\end{itemize}
 			\end{block}
-			\begin{block}{Further Study}
+			\begin{block}{What we don't know}
 				\begin{itemize}
- 					\item<5-> Better understand the polymer %
-					\item<6-> Explore other piezoelectric ceramic nanoparticles.
-					\item<7-> Determine how to use suspension in 3D printing.
+ 					\item<3-> A definitive model for the formation of magnetars %we need to observe more. Given their short life times, it will take a large scale operation to observe enough to build a more robust model of how they form and the related mechanics of them.
 				\end{itemize}
 			\end{block}
 			\column{.3\textwidth}
@@ -318,17 +357,14 @@
 
 \begin{frame}{Resources}
 	\begin{itemize}
-		\item Project Files: https://github.com/mflibby/FlexPiezo
-		\item Samples Request: mackenzieflibby@gmail.com
+		\item 
 	\end{itemize}
 \end{frame}
 
 \begin{frame}{References}
-	\begin{itemize}
-		\item Cui, H., Hensleigh, R., Yao, D., Maurya, D., Kumar, P., Kang, M. G., Zheng, X. (R. (2019). Three-dimensional printing of piezoelectric materials with designed anisotropy and directional response. Nature Materials, 18(3), 234-241. doi: 10.1038/s41563-018-0268-1
-		\item Fu, J., Hou, Y., Zheng, M., \& Zhu, M. (2020). Flexible Piezoelectric Energy Harvester with Extremely High Power Generation Capability by Sandwich Structure Design Strategy. ACS Applied Materials \& Interfaces, 12(8), 9766-9774. doi: 10.1021/acsami.9b21201
-		\item Yang, Y., Pan, H., Xie, G., Jiang, Y., Chen, C., Su, Y.,  Tai, H. (2020). Flexible piezoelectric pressure sensor based on polydopamine-modified BaTiO3/PVDF composite film for human motion monitoring. Sensors and Actuators A: Physical, 301, 111789. doi: 10.1016/j.sna.2019.111789
-	\end{itemize}
+	\begin{enumerate}
+		\item Duncan RC, Thompson C. 1992. ApJ 392:L9-L13
+	\end{enumerate}
 \end{frame}
 
 \end{document}
