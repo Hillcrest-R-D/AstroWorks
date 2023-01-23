@@ -43,7 +43,7 @@
 % \subtitle
 % {Presentation Subtitle} % (optional)
 
-\author[Gardner]{K.E.Gardner}
+\author[Gardner]{Kristen E. Gardner}
 \institute[] {UTU - Department of Physics and Astronomy\\}
 \date[\today]
 
@@ -63,11 +63,11 @@
 \begin{document}
 \begin{frame}
 	\vspace*{-.5cm}
-%	\begin{center}
-%		\begin{figure}
-%			\includegraphics[scale=.03]{UROP Logo.jpg}\hspace*{9cm}
-%		\end{figure}
-%	\end{center}
+	\begin{center}
+		\begin{figure}
+			\includegraphics[scale=.2]{figures/UTU_logo_EN_RGB.png}\hspace*{9cm}
+		\end{figure}
+	\end{center}
 	%\vspace*{-1cm}
   \titlepage
 \end{frame}
@@ -113,7 +113,7 @@
 
 \begin{itemize}
  \item<2-> proposed in 1992 by Duncan Thompson [1]
- \item<3-> SGR 0525−66 found in 1979 (only known outside MW) %European Space Organization's Very Large Telescope
+ \item<3-> SGR 0525-66 found in 1979 (only known outside MW) %European Space Organization's Very Large Telescope
  \item<4-> short X-Ray bursts%\pause
  \item<5-> selection bias 
 \end{itemize}
@@ -145,9 +145,9 @@
 
 \begin{itemize}
  \item<2-> young neutron star%\pause
- \item<3-> spinning down, rate ~1 kyr
+ \item<3-> spinning down, timescale $\sim$1 kyr %spinning down without exception, spin-down timescale on the order of thousands of years
  \item<4-> high-B field ($\ge 10^{13}$ G)
- \item<5-> period range of 2-12s %likely due to magnetic breaking
+ \item<5-> rotational period range of 2-12s %likely due to magnetic breaking
 \end{itemize}
 \end{block}
 \begin{block}{Cases:}
@@ -171,42 +171,96 @@
 %;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
+%columns & blocks: There are two handy environments for structuring
+%your slide: "blocks", which divide your slide (horizontally) into
+%headed sections, and "columns" which divides your slide (vertically)
+%into colum%ns.  This next frame demonstrates both.
+
+\begin{frame}{}
+\frametitle{\Large Distinctions}
+\begin{columns}[c] % the "c" option specifies center vertical
+           % alignment, a `t' option would align the contents
+           % top vertically
+
+\column{.7\textwidth} % column designated by a command
+\begin{block}{Neutron Star}
+\begin{itemize}
+ \item radius on order of 10 km%\pause
+ \item 1.1 - 2.16 solar masses
+ \item $10^9-10^{13}$ G (for non-magnetars)
+\end{itemize}
+\end{block}
+\begin{block}{Magnetars}
+\begin{itemize}
+ \item<2-> 2-12s rotational period%\pause
+ \item<4-> spin-down $\rightarrow$ quiescent X-ray emission and gamma-ray bursts
+\end{itemize}
+\end{block}
+\begin{block}{Radio Pulsars}
+\begin{itemize}
+	\item<3-> $\sim$100 ms rotational period%period high-band bursts (mostly X-ray)
+	\item<5-> spin-down $\rightarrow$ radio emission, and non-thermal X/gamma-ray radiation
+\end{itemize}
+\end{block}
+\column{.3\textwidth}
+
+
+\end{columns}
+\end{frame}
+
+
+
+
+%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+\begin{frame}{\Large Neutron Star Types}
+\frametitle{\Large Neutron Star Types}
+
+\begin{figure}
+	\includegraphics[scale=.17]{figures/neutron_star_types.jpg}
+	\caption{Neutron star types, courtesy of JPL [cite here]}
+\end{figure}
+
+\end{frame}
+
+%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 \begin{frame}{\Large Distribution in Space}
 \frametitle{\Large Distribution in Space}
 
-\begin{minipage}[0.2\textheight]{\textwidth}
-\begin{columns}[T]
-\begin{column}{0.5\textwidth}
-
-\begin{block}{Description:}
-
-\begin{itemize}
- \item<2-> generally within the galactic plane %hence reinforcing the idea of their youth
- \item<3-> mean speed of 200 km s$^-1$, $\sigma = 100$ km s$^-1$
- \item<4-> selection bias
-\end{itemize}
-\end{block}
-\end{column}
-\begin{column}{0.5\textwidth}
-	\begin{figure}
-		\includegraphics[scale=.5]{figures/spatial.png}
-		\caption{Top down view of the Milky Way with known Magnetars (and distance uncertainties) in red.}
-	\end{figure}
-\end{column}
-\end{columns}
-\end{minipage}
+	\begin{minipage}[0.2\textheight]{\textwidth}
+		\begin{columns}[T]
+			\begin{column}{0.5\textwidth}
+			
+				\begin{block}{Observations:}
+				
+					\begin{itemize}
+						 \item<2-> generally within the galactic plane %hence reinforcing the idea of their youth
+						 \item<3-> mean speed of 200 km s$^-1$, $\sigma = 100$ km s$^-1$
+						 \item<4-> selection bias
+					\end{itemize}
+				\end{block}
+			\end{column}
+			\begin{column}{0.5\textwidth}
+				\begin{figure}
+					\includegraphics[scale=.5]{figures/spatial.png}
+					\caption{Top down view of the Milky Way with known Magnetars (and distance uncertainties) in red.}
+				\end{figure}
+			\end{column}
+		\end{columns}
+	\end{minipage}
 
 \end{frame}
 %;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 
-\begin{frame}{\Large Distribution in Space}
-\frametitle{\Large Distribution in Space}
+\begin{frame}{\Large The Magnetars}
+\frametitle{\Large The Magnetars}
 
 \begin{figure}
 	\includegraphics[scale=.5]{tables/magnetar_table.pdf}
+	\caption{So far...}
 \end{figure}
 
 \end{frame}
@@ -265,8 +319,8 @@
 \column{.7\textwidth} % column designated by a command
 \begin{block}{Theories}
 \begin{itemize}
- \item<2-> Neutron stars with $\approx 1$ ms period at birth [1]%\pause
- \item<4-> 
+ \item<2-> Neutron stars with $\sim$1 ms period at birth [1]%\pause
+ \item<4-> Leading Theory: divine entity
 \end{itemize}
 \end{block}
 \begin{block}{Common Conditions}
@@ -284,53 +338,7 @@
 
 
 
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-
-%columns & blocks: There are two handy environments for structuring
-%your slide: "blocks", which divide your slide (horizontally) into
-%headed sections, and "columns" which divides your slide (vertically)
-%into colum%ns.  This next frame demonstrates both.
-
-\begin{frame}{}
-\frametitle{\Large Distinctions}
-\begin{columns}[c] % the "c" option specifies center vertical
-           % alignment, a `t' option would align the contents
-           % top vertically
-
-\column{.7\textwidth} % column designated by a command
-\begin{block}{Magnetars}
-\begin{itemize}
- \item<2-> 2-12s rotational period%\pause
- \item<4-> spin-down leads to quiescent X-ray emission and gamma-ray bursts
-\end{itemize}
-\end{block}
-\begin{block}{Radio Pulsars}
-\begin{itemize}
-	\item<3-> ~100 ms rotational period%period high-band bursts (mostly X-ray)
-	\item<5-> spin-down causes radio emission, and non-thermal X/gamma-ray radiation
-\end{itemize}
-\end{block}
-\column{.3\textwidth}
-
-
-\end{columns}
-\end{frame}
-
-
-
-
-%;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
-\begin{frame}{\Large Distribution in Space}
-\frametitle{\Large Distribution in Space}
-
-\begin{figure}
-	\includegraphics[scale=.17]{figures/neutron_star_types.jpg}
-	\caption{Neutron star types, courtesy of JPL [cite here]}
-\end{figure}
-
-\end{frame}
 
 %;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
@@ -431,12 +439,6 @@
 		\end{columns}
 \end{frame}
 
-
-\begin{frame}{Resources}
-	\begin{itemize}
-		\item 
-	\end{itemize}
-\end{frame}
 
 \begin{frame}{References}
 	\begin{enumerate}
